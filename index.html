@@ -26,6 +26,30 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16789476567">
+    </script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-16789476567');
+    </script>
+    <script>
+    function gtag_contact_click() {
+      gtag('event', 'conversion', {
+          'send_to': 'AW-16789476567/gS_ECJ-N0O0ZENep7MU-'
+      });
+      return false;
+    }
+    function gtag_call_click(url) {
+      gtag('event', 'conversion', {
+          'send_to': 'AW-16789476567/Ci5mCOD_3-0ZENep7MU-'
+      });
+      return false;
+    }
+    </script>
   </head>
   <body>
 
@@ -117,8 +141,8 @@
         <p class="text-center lead">Ready to elevate your brand with professional signage? We're here to make your vision a reality. Don't wait—call us now and let's get started!</p>
         <div class="row justify-content-center">
           <div class="col-md-6 text-center">
-            <a href="tel:07890729370" class="btn btn-primary btn-lg mb-3">Call Jason: 07890 729370</a>
-            <a href="mailto:info@signset.co.uk" class="btn btn-secondary btn-lg mb-3">Email: info@signset.co.uk</a>
+            <a href="tel:07890729370" class="btn btn-primary btn-lg mb-3" onclick="gtag_call_click();">Call Jason: 07890 729370</a>
+            <a href="mailto:info@signset.co.uk" class="btn btn-secondary btn-lg mb-3" onclick="gtag_contact_click();">Email: info@signset.co.uk</a>
             <p><strong>Signset</strong>, 15 Anthony Road, Heavitree, Exeter, Devon, EX1 2SS</p>
           </div>
         </div>
